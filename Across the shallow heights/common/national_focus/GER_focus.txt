@@ -34,8 +34,8 @@ focus_tree = {
 		icon = GFX_thisgfxiswrong
 		
 		# POSITIONING (X = left / right, Y = up / down)
-		x = -4
-		y = 1
+		x = 11
+		y = 0
 		
 		# How many days will it take to complete this FOCUS. This COST is multiplied by 7, so COST 10 = 70 days
 		cost = 2
@@ -73,7 +73,7 @@ focus_tree = {
 		x = 0
 		y = 0
 		# RELATIVE POSITIONG - Position you set up in x/y will be also based on the position of the focus you list here. SUPER USEFUL! (You can then move big parts of the FOCUS TREE for example)
-		relative_position_id = AFK_EXPL_one
+		relative_position_id = GER_Reunion_Populus
 		
 		# How many days will it take to complete this FOCUS. This COST is multiplied by 7, so COST 10 = 70 days
 		cost = 10
@@ -179,3 +179,4 @@ focus_tree = {
 	}
 
 }
+
