@@ -61,16 +61,16 @@ focus_tree = {
 	
 	focus = {
 		# ID of the FOCUS (must be always unique!)
-		id = AFK_EXPL_two
+		id = GER_Facist_Path
 		# ICON of the focus
 		icon = GFX_thisgfxiswrong
 		# To what FOCUS is this FOCUS linked to (which focus must be completed before this one)
 		prerequisite = { focus = GER_Reunion_Populus }
 		# With which FOCUS is this FOCUS mutually exclusive with (you can only complete one of these focuses. MUST BE LISTED in BOTH of the FOCUSes!)
-		mutually_exclusive = {  }
+		mutually_exclusive = { focus = GER_Communist_Path focus = GER_Democratic_Path focus = GER_Monarchist_Path }
 		
 		# POSITIONING (X = left / right, Y = up / down)
-		x = 0
+		x = 6
 		y = 1
 		# RELATIVE POSITIONG - Position you set up in x/y will be also based on the position of the focus you list here. SUPER USEFUL! (You can then move big parts of the FOCUS TREE for example)
 		relative_position_id = GER_Reunion_Populus
@@ -123,10 +123,209 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 	}
 	
+	focus = {
+		# ID of the FOCUS (must be always unique!)
+		id = GER_Democratic_Path
+		# ICON of the focus
+		icon = GFX_thisgfxiswrong
+		# To what FOCUS is this FOCUS linked to (which focus must be completed before this one)
+		prerequisite = { focus = GER_Reunion_Populus }
+		# With which FOCUS is this FOCUS mutually exclusive with (you can only complete one of these focuses. MUST BE LISTED in BOTH of the FOCUSes!)
+		mutually_exclusive = { focus = GER_Facist_Path focus = GER_Monarchist_Path focus = GER_Communist_Path }
+		
+		# POSITIONING (X = left / right, Y = up / down)
+		x = 3
+		y = 1
+		# RELATIVE POSITIONG - Position you set up in x/y will be also based on the position of the focus you list here. SUPER USEFUL! (You can then move big parts of the FOCUS TREE for example)
+		relative_position_id = GER_Reunion_Populus
+		
+		# How many days will it take to complete this FOCUS. This COST is multiplied by 7, so COST 10 = 70 days
+		cost = 10
+		
+		# When is this focus AVAILABLE - what conditions you must satisfy in order to select this FOCUS
+		available = {
+			# CONDITIONS listed here
+			
+		}
+		
+		# You get this when you complete this FOCUS
+		completion_reward = {
+			# EFFECTS listed here
+			
+			
+			
+			##### LISTED BELLOW are some things that you can use here. It might save you some time if you need them
+			### IF / ELSE_IF / ELSE
+			# IF - EFFECTS here will happens only if CONDITIONS in LIMIT are satisfied
+			IF = {
+				LIMIT = {
+					# CONDITIONS listed here
+					
+				}
+				
+				# EFFECTS listed here
+				
+			}
+			# ELSE_IF - EFFECTS here will happen only if the CONDITIONS in IF are not satisfied and if conditions listed here in LIMIT are satisifed
+			ELSE_IF = {
+				LIMIT = {
+					# CONDITIONS listed here
+					
+				}
+				
+				# EFFECTS listed here
+				
+			}
+			# ELSE - EFFECTS here will happen only if the CONDITIONS in IF and ELSE_IF are not satisfied
+			ELSE = {
+				# EFFECTS listed here
+				
+			}
+		}
+		
+		# How likely is AI to select this FOCUS
+		ai_will_do = {
+			factor = 5
+		}
+		
+	}
 	
-	
+	focus = {
+		# ID of the FOCUS (must be always unique!)
+		id = GER_Monarchist_Path
+		# ICON of the focus
+		icon = GFX_thisgfxiswrong
+		# To what FOCUS is this FOCUS linked to (which focus must be completed before this one)
+		prerequisite = { focus = GER_Reunion_Populus }
+		# With which FOCUS is this FOCUS mutually exclusive with (you can only complete one of these focuses. MUST BE LISTED in BOTH of the FOCUSes!)
+		mutually_exclusive = { focus = GER_Facist_Path focus = GER_Communist_Path focus = GER_Democratic_Path }
+		
+		# POSITIONING (X = left / right, Y = up / down)
+		x = -3
+		y = 1
+		# RELATIVE POSITIONG - Position you set up in x/y will be also based on the position of the focus you list here. SUPER USEFUL! (You can then move big parts of the FOCUS TREE for example)
+		relative_position_id = GER_Reunion_Populus
+		
+		# How many days will it take to complete this FOCUS. This COST is multiplied by 7, so COST 10 = 70 days
+		cost = 10
+		
+		# When is this focus AVAILABLE - what conditions you must satisfy in order to select this FOCUS
+		available = {
+			# CONDITIONS listed here
+			
+		}
+		
+		# You get this when you complete this FOCUS
+		completion_reward = {
+			# EFFECTS listed here
+			
+			
+			
+			##### LISTED BELLOW are some things that you can use here. It might save you some time if you need them
+			### IF / ELSE_IF / ELSE
+			# IF - EFFECTS here will happens only if CONDITIONS in LIMIT are satisfied
+			IF = {
+				LIMIT = {
+					# CONDITIONS listed here
+					
+				}
+				
+				# EFFECTS listed here
+				
+			}
+			# ELSE_IF - EFFECTS here will happen only if the CONDITIONS in IF are not satisfied and if conditions listed here in LIMIT are satisifed
+			ELSE_IF = {
+				LIMIT = {
+					# CONDITIONS listed here
+					
+				}
+				
+				# EFFECTS listed here
+				
+			}
+			# ELSE - EFFECTS here will happen only if the CONDITIONS in IF and ELSE_IF are not satisfied
+			ELSE = {
+				# EFFECTS listed here
+				
+			}
+		}
+		
+		# How likely is AI to select this FOCUS
+		ai_will_do = {
+			factor = 5
+		}
+		
+	}
+
+	focus = {
+		# ID of the FOCUS (must be always unique!)
+		id = GER_Communist_Path
+		# ICON of the focus
+		icon = GFX_thisgfxiswrong
+		# To what FOCUS is this FOCUS linked to (which focus must be completed before this one)
+		prerequisite = { focus = GER_Reunion_Populus }
+		# With which FOCUS is this FOCUS mutually exclusive with (you can only complete one of these focuses. MUST BE LISTED in BOTH of the FOCUSes!)
+		mutually_exclusive = { focus = GER_Facist_Path focus = GER_Monarchist_Path focus = GER_Democratic_Path }
+		
+		# POSITIONING (X = left / right, Y = up / down)
+		x = -6
+		y = 1
+		# RELATIVE POSITIONG - Position you set up in x/y will be also based on the position of the focus you list here. SUPER USEFUL! (You can then move big parts of the FOCUS TREE for example)
+		relative_position_id = GER_Reunion_Populus
+		
+		# How many days will it take to complete this FOCUS. This COST is multiplied by 7, so COST 10 = 70 days
+		cost = 10
+		
+		# When is this focus AVAILABLE - what conditions you must satisfy in order to select this FOCUS
+		available = {
+			# CONDITIONS listed here
+			
+		}
+		
+		# You get this when you complete this FOCUS
+		completion_reward = {
+			# EFFECTS listed here
+			
+			
+			
+			##### LISTED BELLOW are some things that you can use here. It might save you some time if you need them
+			### IF / ELSE_IF / ELSE
+			# IF - EFFECTS here will happens only if CONDITIONS in LIMIT are satisfied
+			IF = {
+				LIMIT = {
+					# CONDITIONS listed here
+					
+				}
+				
+				# EFFECTS listed here
+				
+			}
+			# ELSE_IF - EFFECTS here will happen only if the CONDITIONS in IF are not satisfied and if conditions listed here in LIMIT are satisifed
+			ELSE_IF = {
+				LIMIT = {
+					# CONDITIONS listed here
+					
+				}
+				
+				# EFFECTS listed here
+				
+			}
+			# ELSE - EFFECTS here will happen only if the CONDITIONS in IF and ELSE_IF are not satisfied
+			ELSE = {
+				# EFFECTS listed here
+				
+			}
+		}
+		
+		# How likely is AI to select this FOCUS
+		ai_will_do = {
+			factor = 5
+		}
+		
+	}
 	### EXEMPLARY FOCUSES
 	focus = {
 		id = PeepeePooPoo
@@ -179,5 +378,3 @@ focus_tree = {
 	}
 
 }
-
-
