@@ -29,16 +29,16 @@ focus_tree = {
 	### EXPLANATORY DECISIONS (You can delete them and use the ones bellow if you don't want my notes there :-))
 	focus = {
 		# ID of the FOCUS (must be always unique!)
-		id = AFK_EXPL_one
+		id = GER_Reunion_Populus
 		# ICON of the focus
 		icon = GFX_thisgfxiswrong
 		
 		# POSITIONING (X = left / right, Y = up / down)
-		x = 0
-		y = 0
+		x = -4
+		y = 1
 		
 		# How many days will it take to complete this FOCUS. This COST is multiplied by 7, so COST 10 = 70 days
-		cost = 10
+		cost = 2
 		
 		# When is this focus AVAILABLE - what conditions you must satisfy in order to select this FOCUS
 		available = {
@@ -177,4 +177,5 @@ focus_tree = {
 			factor = 5
 		}
 	}
+
 }
