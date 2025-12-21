@@ -65,13 +65,13 @@ focus_tree = {
 		# ICON of the focus
 		icon = GFX_thisgfxiswrong
 		# To what FOCUS is this FOCUS linked to (which focus must be completed before this one)
-		prerequisite = { focus = AFK_EXPL_one }
+		prerequisite = { focus = GER_Reunion_Populus }
 		# With which FOCUS is this FOCUS mutually exclusive with (you can only complete one of these focuses. MUST BE LISTED in BOTH of the FOCUSes!)
 		mutually_exclusive = {  }
 		
 		# POSITIONING (X = left / right, Y = up / down)
 		x = 0
-		y = 0
+		y = 1
 		# RELATIVE POSITIONG - Position you set up in x/y will be also based on the position of the focus you list here. SUPER USEFUL! (You can then move big parts of the FOCUS TREE for example)
 		relative_position_id = GER_Reunion_Populus
 		
@@ -179,4 +179,5 @@ focus_tree = {
 	}
 
 }
+
 
