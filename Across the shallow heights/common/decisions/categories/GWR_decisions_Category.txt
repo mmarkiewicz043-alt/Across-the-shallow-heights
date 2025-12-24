@@ -1,0 +1,7 @@
+
+GWR_cat = {
+
+	allowed = {
+		original_tag = GWR
+	}
+}
