@@ -1,0 +1,546 @@
+### FOCUSES (See MODDING TUTORIAL video n. 2 "Focuses, Command & Scopes" on YouTube "Narzgel". If you need any advice, check the UMC Discord)
+# AFK = reserved space for the TAG of your nation
+
+##### FOCUS TREE
+# In this first part you only need to change "id" (to your unique ID of your FOCUS TREE) and "tag = " in the "modifier" part.
+focus_tree = {
+	# ID of the whole FOCUS TREE
+	id = TSP_focus
+	
+	# If Generic nations (those without focus tree) will try to use this FOCUS TREE
+	default = no
+	
+	# How likely is country to use this FOCUS TREE
+	country = {
+		factor = 0
+		
+		# Adding TAG of the country you want (for example GER for Germany) will make that country to use this FOCUS TREE
+		modifier = {
+			add = 50
+			tag = TSP
+		}
+	}
+
+	
+focus = {
+		id = TSP_OHL_leads
+		icon = GFX_thisgfxiswrong
+		prerequisite = { }
+		relative_position_id = ""
+
+		mutually_exclusive = {		}
+		
+		x = 8
+		y = 0
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+    focus = {
+		id = TSP_Search_for_leadership
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_OHL_leads }
+		relative_position_id = "TSP_OHL_leads"
+
+		mutually_exclusive = {		}
+		
+		x = 0
+		y = 3
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	 focus = {
+		id = TSP_infrastructure_development
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_OHL_leads }
+		relative_position_id = "TSP_OHL_leads"
+
+		mutually_exclusive = {		}
+		
+		x = -5
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = TSP_defense_infrastructure_development
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_OHL_leads }
+		relative_position_id = "TSP_OHL_leads"
+
+		mutually_exclusive = {		}
+		
+		x = 5
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = TSP_military_industrial_complex
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_defense_infrastructure_development }
+		relative_position_id = "TSP_defense_infrastructure_development"
+
+		mutually_exclusive = {		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+    focus = {
+		id = TSP_appoint_new_generals
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_defense_infrastructure_development }
+		relative_position_id = "TSP_defense_infrastructure_development"
+
+		mutually_exclusive = {		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = TSP_military_industrial_complex2
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_military_industrial_complex }
+		relative_position_id = "TSP_military_industrial_complex"
+
+		mutually_exclusive = {		}
+		
+		x = 0-
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = TSP_military_industrial_complex3
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_military_industrial_complex2 }
+		relative_position_id = "TSP_military_industrial_complex2"
+
+		mutually_exclusive = {		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = TSP_civilian_urban_development
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_infrastructure_development }
+		relative_position_id = "TSP_infrastructure_development"
+
+		mutually_exclusive = {		}
+		
+		x = -1
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = TSP_civilian_urban_development2
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_civilian_urban_development }
+		relative_position_id = "TSP_civilian_urban_development"
+
+		mutually_exclusive = {		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = TSP_civilian_urban_development3
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_civilian_urban_development2 }
+		relative_position_id = "TSP_civilian_urban_development2"
+
+		mutually_exclusive = {		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+    focus = {
+		id = TSP_civilian_industrial_development
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_infrastructure_development }
+		relative_position_id = "TSP_infrastructure_development"
+
+		mutually_exclusive = {		}
+		
+		x = 1
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	
+    focus = {
+		id = "TSP_civilian_industrial_development2"
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_civilian_industrial_development }
+		relative_position_id = "TSP_civilian_industrial_development"
+
+		mutually_exclusive = {		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = "TSP_freikorps_voran"
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_Search_for_leadership }
+		relative_position_id = "TSP_Search_for_leadership"
+
+		mutually_exclusive = {		}
+		
+		x = -3
+		y = 2
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = "TSP_civilian_industrial_development3"
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_civilian_industrial_development2 }
+		relative_position_id = "TSP_civilian_industrial_development2"
+
+		mutually_exclusive = {		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = "TSP_appoint_new_kaiser"
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_Search_for_leadership }
+		relative_position_id = "TSP_Search_for_leadership"
+
+		mutually_exclusive = {		}
+		
+		x = 3
+		y = 2
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = "TSP_bring_back_electorate"
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_Search_for_leadership }
+		relative_position_id = "TSP_Search_for_leadership"
+
+		mutually_exclusive = {		}
+		
+		x = -1
+		y = 2
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = "TSP_stick_to_OHL"
+		icon = GFX_thisgfxiswrong
+		prerequisite = { focus = TSP_Search_for_leadership }
+		relative_position_id = "TSP_Search_for_leadership"
+
+		mutually_exclusive = {		}
+		
+		x = 1
+		y = 2
+		
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
