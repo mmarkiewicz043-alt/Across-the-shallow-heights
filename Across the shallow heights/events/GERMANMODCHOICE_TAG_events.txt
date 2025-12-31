@@ -1,0 +1,73 @@
+add_namespace = GermanModChoice_tag
+
+country_event = {
+		id = GermanModChoice_tag.2
+		title = GermanModChoice_tag.2.t
+		desc = GermanModChoice_tag.2.d
+		picture = GFX_thisgfxiswrong
+		
+		is_triggered_only = yes
+		
+		
+		option = {
+			name = GermanModChoice_tag.2.a
+			add_to_variable = {
+				across_shallow_heights_variable_mod = 1
+			}
+			ai_chance = {
+				base = 5
+			}
+			
+			
+		}
+		option = {
+			name = GermanModChoice_tag.2.b
+			ai_chance = {
+				base = 5
+			}
+			
+			
+		}
+	}
+country_event = {
+		id = GermanModChoice_tag.3
+		title = GermanModChoice_tag.3.t
+		desc = GermanModChoice_tag.3.d
+		picture = GFX_thisgfxiswrong
+		
+		is_triggered_only = yes
+		
+		
+		option = {
+			name = GermanModChoice_tag.3.a
+			add_to_variable = {
+				across_shallow_heights_variable_mod = 1
+			}
+			ai_chance = {
+				base = 5
+			}
+			
+			
+		}
+	}
+	country_event = {
+		id = GermanModChoice_tag.4
+		title = GermanModChoice_tag.4.t
+		desc = GermanModChoice_tag.4.d
+		picture = GFX_thisgfxiswrong
+		
+		is_triggered_only = yes
+		
+		
+		option = {
+			name = GermanModChoice_tag.4.a
+			add_to_variable = {
+				across_shallow_heights_variable_mod = 1
+			}
+			ai_chance = {
+				base = 5
+			}
+			
+			
+		}
+	}
