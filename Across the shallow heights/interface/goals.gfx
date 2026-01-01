@@ -12530,7 +12530,66 @@ spriteTypes = {
 	##PLACEHOLDER###
 	################
 
-	
+    spriteType = {
+		name = "GFX_focus_GWR_kill_opposition_leaders"
+		textureFile = "gfx/interface/goals/focus_GWR_kill_opposition_leaders.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GWR_open_their_eyes"
+		textureFile = "gfx/interface/goals/focus_GWR_open_their_eyes.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_make_the_world_see_the_vision"
+		textureFile = "gfx/interface/goals/focus_GWR_make_the_world_see_the_vision.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GWR_prepare_for_the_great_unification"
+		textureFile = "gfx/interface/goals/focus_GWR_prepare_for_the_great_unification.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_rally_the_nation"
+		textureFile = "gfx/interface/goals/focus_GWR_rally_the_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GWR_purge_the_council"
+		textureFile = "gfx/interface/goals/focus_GWR_purge_the_council.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_await_for_the_moment_of_glory"
+		textureFile = "gfx/interface/goals/focus_GWR_await_for_the_moment_of_glory.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_hold_a_parade"
+		textureFile = "gfx/interface/goals/focus_GWR_hold_a_parade.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_third_way_for_fascism"
+		textureFile = "gfx/interface/goals/focus_GWR_third_way_for_fascism.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_consolidate_power"
+		textureFile = "gfx/interface/goals/focus_GWR_consolidate_power.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_hitlers_successor"
+		textureFile = "gfx/interface/goals/focus_GWR_hitlers_successor.dds"
+	}
+    spriteType = {
+		name = "GFX_focus_GWR_uphold_hitlers_vision"
+		textureFile = "gfx/interface/goals/focus_GWR_uphold_hitlers_vision.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GWR_strasser_win"
+		textureFile = "gfx/interface/goals/focus_GWR_strasser_win.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GWR_thule_victory"
+		textureFile = "gfx/interface/goals/focus_GWR_thule_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GWR_nationalist_win"
+		textureFile = "gfx/interface/goals/focus_GWR_nationalist_victory.dds"
+	}
     SpriteType = {
 		name = "GFX_focus_GWR_nsdap_win"
 		texturefile = "gfx/interface/goals/focus_GWR_nsdap_win.dds"
