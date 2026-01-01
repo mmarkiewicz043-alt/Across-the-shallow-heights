@@ -460,7 +460,7 @@ focus = {
 
 		focus = {
 		id = GWR_Strasser_wins
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_strasser_win
 		prerequisite = { focus = GWR_Convine_the_Great_Council }
 		mutually_exclusive = {	focus = GWR_Nationalists_win focus = GWR_nsdap_win focus = GWR_thule_victory }
 		
@@ -487,7 +487,7 @@ focus = {
 
 	focus = {
 		id = GWR_Nationalists_win
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_nationalist_win
 		prerequisite = { focus = GWR_Convine_the_Great_Council }
 		mutually_exclusive = {	focus = GWR_Strasser_wins focus = GWR_nsdap_win focus = GWR_thule_victory }
 		
@@ -514,7 +514,7 @@ focus = {
 
 	focus = {
 		id = GWR_thule_victory
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_thule_victory
 		prerequisite = { focus = GWR_Convine_the_Great_Council }
 		mutually_exclusive = {	focus = GWR_Strasser_wins focus = GWR_Nationalists_win focus = GWR_nsdap_win	}
 		
@@ -568,7 +568,7 @@ focus = {
 
 	focus = {
 		id = GWR_Uphold_hitlers_vision
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_uphold_hitlers_vision
 		prerequisite = { focus = GWR_nsdap_win }
 		mutually_exclusive = {	 }
 		
@@ -595,7 +595,7 @@ focus = {
 
 	focus = {
 		id = GWR_Make_the_world_see_the_vision
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_make_the_world_see_the_vision
 		prerequisite = { focus = GWR_thule_victory }
 		mutually_exclusive = {	 }
 		
@@ -622,7 +622,7 @@ focus = {
 
 	focus = {
 		id = GWR_Purge_the_council
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_purge_the_council
 		prerequisite = { focus = GWR_Nationalists_win }
 		mutually_exclusive = {	 }
 		
@@ -649,7 +649,7 @@ focus = {
 
 	focus = {
 		id = GWR_Rally_the_nation
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_rally_the_nation
 		prerequisite = { focus = GWR_Purge_the_council }
 		mutually_exclusive = {	 }
 		
@@ -703,7 +703,7 @@ focus = {
 
 		focus = {
 		id = GWR_Prepeare_for_the_great_unification
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_prepare_for_the_great_unification
 		prerequisite = { focus = GWR_Rally_the_nation }
 		mutually_exclusive = {	 }
 		
@@ -730,7 +730,7 @@ focus = {
 
 	focus = {
 		id = GWR_the_third_way_for_fascism
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_third_way_for_fascism
 		prerequisite = { focus = GWR_Strasser_wins }
 		mutually_exclusive = {	 }
 		
@@ -757,7 +757,7 @@ focus = {
 
 		focus = {
 		id = GWR_Hitlers_successor
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_hitlers_successor
 		prerequisite = { focus = GWR_Uphold_hitlers_vision }
 		mutually_exclusive = {	 }
 		
@@ -785,7 +785,7 @@ focus = {
 
 focus = {
 		id = GWR_consolidate_power
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_consolidate_power
 		prerequisite = { focus = GWR_Hitlers_successor }
 		mutually_exclusive = {	 }
 		
@@ -812,7 +812,7 @@ focus = {
 
 	focus = {
 		id = GWR_Hold_a_parade
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_hold_a_parade
 		prerequisite = { focus = GWR_the_third_way_for_fascism }
 		mutually_exclusive = {	 }
 		
@@ -839,7 +839,7 @@ focus = {
 
 		focus = {
 		id = GWR_await_for_the_moment_of_glory
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_await_for_the_moment_of_glory
 		prerequisite = { focus = GWR_Hold_a_parade }
 		mutually_exclusive = {	 }
 		
@@ -866,7 +866,7 @@ focus = {
 
 	focus = {
 		id = GWR_Kill_the_leaders_of_opposition
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_kill_opposition_leaders
 		prerequisite = { focus = GWR_Make_the_world_see_the_vision }
 		mutually_exclusive = {	 }
 		
@@ -893,7 +893,7 @@ focus = {
 
 	focus = {
 		id = GWR_Open_their_eyes
-		icon = GFX_thisgfxiswrong
+		icon = GFX_focus_GWR_open_their_eyes
 		prerequisite = { focus = GWR_Kill_the_leaders_of_opposition }
 		mutually_exclusive = {	 }
 		
